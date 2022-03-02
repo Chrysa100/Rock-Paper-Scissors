@@ -41,7 +41,7 @@ function computerPlay(){
 
 function playerPlay(){
     do{
-    playerChoice=prompt("Write rock, paper or scissors", "").toLowerCase();
+        playerChoice=prompt("Write rock, paper or scissors", "").toLowerCase();
     }while (playerChoice !=="rock" &&
         playerChoice !=="paper" &&
         playerChoice !=="scissors");
