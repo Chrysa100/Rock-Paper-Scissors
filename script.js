@@ -1,8 +1,8 @@
 
- let computerScore=0;
- let playerScore=0;
-
- game();
+let computerScore=0;
+let playerScore=0;
+alert("after this message click on Cancel to start. Then right click--> inspect -->console tab   ");
+game();
 
 function game(){
    
