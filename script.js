@@ -85,6 +85,7 @@ function newGame(){
     newGame.classList.add('newPlay');
     results.appendChild(newGame);
     newGame.addEventListener('click', refreshPage);
+    }
 }
 
 // Function to refresh page
