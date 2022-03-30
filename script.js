@@ -68,7 +68,7 @@ function playRound(playerSelection,computerSelection){
 
 //Function to show the score & check if there's a winner
 function scoreCheck(playerScore, computerScore){
-    scores.textContent = `Your score: ${playerScore} --- Computer's score: ${computerScore}`;
+    scores.textContent = `Your score: ${playerScore}    ---   Computer's score: ${computerScore}`;
     if(playerScore===5){
         gameRound.textContent = "GAME OVER! The winner is YOU!";    
     }else if(computerScore===5){
@@ -85,8 +85,8 @@ function newGame(){
     newGame.classList.add('newPlay');
     results.appendChild(newGame);
     newGame.addEventListener('click', refreshPage);
-    }
 }
+
 
 // Function to refresh page
 function refreshPage() {
