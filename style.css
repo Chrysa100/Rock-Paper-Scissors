@@ -1,6 +1,7 @@
 body{
     text-align: center;
     background-color: rgb(240, 197, 248);
+    color :  rgb(65, 16, 65);
     
 }
 
@@ -20,8 +21,9 @@ button{
 }
 
 .footer {
-    margin-top: 320px;
-    
-   font-size: 20px;
+    position:fixed;
+    bottom:2px;
+    left:45%;  
+    font-size: 20px;
     
 }

@@ -70,8 +70,10 @@ function playRound(playerSelection,computerSelection){
 function scoreCheck(playerScore, computerScore){
     scores.textContent = `Your score: ${playerScore}    ---   Computer's score: ${computerScore}`;
     if(playerScore===5){
+        gameRound.style.color = "rgb(228, 13, 13)";
         gameRound.textContent = "GAME OVER! The winner is YOU!";    
     }else if(computerScore===5){
+        gameRound.style.color = "rgb(228, 13, 13)";
         gameRound.textContent="GAME OVER! The winner is the COMPUTER!";  
     }
     
